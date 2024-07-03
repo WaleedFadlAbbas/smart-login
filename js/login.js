@@ -29,7 +29,7 @@ function checkUser() {
         if (loginEmail.value.toLowerCase() == allUsers[i].email.toLowerCase() && loginPassword.value.toLowerCase() == allUsers[i].password.toLowerCase()) {
             let user = allUsers[i].name
             localStorage.setItem('username', user)
-            location.href = '../smart login/homepage.html'
+            location.href = '../homepage.html'
             userExisted = true
             break
         }

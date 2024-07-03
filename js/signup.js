@@ -48,7 +48,7 @@ function addUser() {
         }
         allUsers.push(users)
         localStorage.setItem('allUsers', JSON.stringify(allUsers))
-        location.href = '../smart login/index.html'
+        location.href = '../index.html'
     }
 }
 

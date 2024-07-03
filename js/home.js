@@ -8,6 +8,6 @@ user.innerHTML = localStorage.getItem('username')
 // add event to logout btn
 logoutBtn.addEventListener('click', function () {
     localStorage.removeItem('username')
-    location.href = '../smart login/index.html'
+    location.href = '../index.html'
 })
 
